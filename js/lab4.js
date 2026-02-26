@@ -48,16 +48,28 @@ titleControl.onAdd = function () {
       line-height: 1.35;
       max-width: 260px;
     ">
-      <div style="font-weight:700; font-size:14px; margin-bottom:4px;">
+      <div style="font-weight:700; font-size:14px; margin-bottom:0px;">
         Dartmouth Atlas Health Regions
       </div>
 
+      <div style="font-size:11px; font-style:italic; opacity:0.75; margin-bottom:6px;">
+        Jon Waldrup · 02/26/2026
+      </div>
+
       <div style="margin-bottom:6px;">
-        <b>HRRs (Hospital Referral Regions)</b> represent large regional
-        markets for tertiary medical care.
-        <br>
-        <b>HSAs (Hospital Service Areas)</b> represent local hospital markets
-        for routine inpatient care.
+        <b>HRRs (Hospital Referral Regions)</b><br>
+        Hospital Referral Regions (HRRs) were originally defined in the
+        1996 Dartmouth Atlas of Health Care by aggregating 3,436 hospital
+        service areas based on where residents were referred for major
+        cardiovascular surgical procedures and neurosurgery
+        (Wennberg et al., 1999).
+        <br><br>
+        <b>HSAs (Hospital Service Areas)</b><br>
+        HSAs represent local health care markets for community-based
+        inpatient care and were defined by assigning ZIP codes to the
+        hospital area where the greatest proportion of residents were
+        hospitalized, with adjustments to ensure geographic contiguity
+        (NCBI, 2022).
       </div>
 
       <div style="font-size:12px; opacity:0.85;">
